@@ -1,11 +1,11 @@
-# Smart-Sphere ( Xeno AI SDE Internship Assignment)
+# Xeno-Sphere ( Xeno SDE Internship Assignment Thapar)
 
 A full-stack, AI-powered Customer Relationship Management (CRM) platform built with Next.js 14 (App Router), MongoDB, NextAuth, shadcn/ui, and Groq.  
 This project demonstrates customer segmentation, campaign management, order ingestion, and vendor integration with webhooks.
 
 ---
-### 📽️Video Link: https://youtu.be/1FLkMiKxVgk
-### 🔗Deployed Link: https://smartsphere.vercel.app
+### 📽️Video Link: https://drive.google.com/file/d/1FA3AHychuFIXpjss_fuj02SVC5v01x4M/view?usp=sharing
+### 🔗Deployed Link: https://xeno-assignment-mu.vercel.app/
 ---
 ## Features
 
@@ -22,50 +22,9 @@ This project demonstrates customer segmentation, campaign management, order inge
 - **Rate Limiting:** Upstash Redis for rate limiting
 ---
 
-## Getting Started
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/AnshJain9159/Xeno-Assignment.git
-cd Xeno-Assignment
-cd web
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Set up environment variables
-
-Create a `.env.local` file in the `web` directory:
-
-```
-NEXTAUTH_SECRET="" # Added by `npx auth`.
-AUTH_GOOGLE_ID="your-google-client-id"
-AUTH_GOOGLE_SECRET="your-google-client-secret"
-MONGODB_URI="mongodb://localhost:27017/Xeno"
-CALLBACK_URL="http://localhost:3000/api/auth/callback/google"
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
-NEXTAUTH_URL="http://localhost:3000"
-GROQ_API_KEY="your-groq-api-key"
-UPSTASH_REDIS_REST_URL="https://your-upstash-url" 
-UPSTASH_REDIS_REST_TOKEN="your-token"
-```
-
-### 4. Run the development server
-
-```bash
-npm run dev
-```
-
-Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
----
 ## Architecture Diagram
-![Smart-Sphere CRM High-Level Architecture](./architecture.png)
+![Xeno-Sphere CRM High-Level Architecture](./architecture.png)
 ---
 ## API Endpoints
 
@@ -139,6 +98,7 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Contact
 
-Made by Ansh Jain  
-[GitHub](https://github.com/AnshJain9159/Xeno-Assignment)
-[LinkedIn](https://www.linkedin.com/in/ansh-jain-78986b242/)
+Made by Hemant Kumar  
+[GitHub](https://github.com/mr-hemnt/XenoAssignment)
+[LinkedIn](https://www.linkedin.com/in/hemant-kumar-047262258/)
+
