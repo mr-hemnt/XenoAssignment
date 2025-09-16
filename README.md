@@ -1,5 +1,4 @@
 # Xeno-Sphere ( Xeno SDE Internship Assignment Thapar)
-# Xeno-Sphere ( Xeno AI Internship Assignment Thapar Assignment)
 
 A full-stack, AI-powered Customer Relationship Management (CRM) platform built with Next.js 14 (App Router), MongoDB, NextAuth, shadcn/ui, and Groq.  
 This project demonstrates customer segmentation, campaign management, order ingestion, and vendor integration with webhooks.
@@ -7,8 +6,6 @@ This project demonstrates customer segmentation, campaign management, order inge
 ---
 ### 📽️Video Link: https://drive.google.com/file/d/1FA3AHychuFIXpjss_fuj02SVC5v01x4M/view?usp=sharing
 ### 🔗Deployed Link: https://xeno-assignment-mu.vercel.app/
-### 📽️Video Link: 
-### 🔗Deployed Link:
 ---
 ## Features
 
@@ -101,10 +98,6 @@ This project demonstrates customer segmentation, campaign management, order inge
 ---
 
 ## Contact
-
-Made by Hemant Kumar  
-[GitHub](https://github.com/mr-hemnt/XenoAssignment)
-[LinkedIn](https://www.linkedin.com/in/hemant-kumar-047262258/)
 
 Made by Hemant Kumar  
 [GitHub](https://github.com/mr-hemnt/XenoAssignment)
