@@ -72,17 +72,6 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       }
       return session;
     },
-    async signIn({ user, account, profile, email, credentials }) {
-    try {
-      if (account?.provider === "google") {
-        console.log("Google sign-in attempt:", { user, account, profile });
-      }
-      return true;
-    } catch (err) {
-      console.error("Error during signIn callback:", err);
-      return false;
-    }
-  },
   },
 
   logger: {
