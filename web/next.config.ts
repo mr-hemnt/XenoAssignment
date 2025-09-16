@@ -1,6 +1,4 @@
 import type { NextConfig } from "next";
-import clientPromise from "@/lib/db";
-import { MongoDBAdapter } from "@auth/mongodb-adapter";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -12,7 +10,6 @@ const nextConfig: NextConfig = {
   },
   
   debug: true,
-  adapter: MongoDBAdapter(clientPromise),
 };
 
 export default nextConfig;
